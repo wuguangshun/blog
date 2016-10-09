@@ -410,13 +410,13 @@ html {
 
 }
 #page2 div:nth-child(4){
-
+    opacity: 1;
     animation:slideInLeft 1s 0.7s both;
     -webkit-animation:slideInLeft 1s 0.7s both;
 
 }
 #page2 div:nth-child(5){
-
+opacity: 1;
     animation:slideInRight 1s 0.7s both;
     -webkit-animation:slideInRight 1s 0.7s both;
 
