@@ -277,93 +277,24 @@ html {
 
 
 }
-.slide5 div:nth-child(2){
+.slide5 img:nth-child(2){
     position: absolute;
-    top: 28%;
-    left: 21.6%;
-    font-size: 0.4rem;
-
+    opacity: 0;
+    width: 5.87rem;
+    height: 4.37rem;
+    left: 4.5%;
+    top: 34.6%;
+    transform: rotate(90deg);
 }
 
 .slide5 div:nth-child(3) {
     position: absolute;
-    top: 36%;
-    left: 45.1%;
-    font-size: 0.4rem;
-
+    top: 30%;
+    left: 24.1%;
+    width: 3.6rem;
+    font-size: 0.34rem;
 }
 
-.slide5 div:nth-child(4){
-    position: absolute;
-    top: 44.4%;
-    left: 42.2%;
-    font-size: 0.4rem;
-
-}
-
-.slide5 div:nth-child(5) {
-    position: absolute;
-    top: 60.9%;
-    left: 20%;
-    font-size: 0.4rem;
-
-}
-
-.slide5 div:nth-child(6) {
-    position: absolute;
-    top: 53%;
-    left: 44.2%;
-    font-size: 0.4rem;
-
-}
-
-#page5 .line1 {
-    position: absolute;
-    top: 28.6%;
-    left: 57.3%;
-    background: url("../img/page4a_10.png");
-    width: 2.28rem;
-    height: 0.4rem;
-    background-size: cover;
-    -webkit-animation: rotateInDownRight .7s linear 0s 1 both;
-    animation: rotateInDownRight .7s linear 0s 1 both;
-}
-
-#page5 .line2 {
-    position: absolute;
-    top: 36.6%;
-    left: 7%;
-    background: url("../img/page4a_16.png");
-    width: 2.28rem;
-    height: 0.4rem;
-    background-size: cover;
-    -webkit-animation: rotateInDownLeft .7s linear 2s 1 both;
-    animation: rotateInDownLeft .7s linear 2s 1 both;
-}
-
-#page5 .line3 {
-    position: absolute;
-    top: 45.3%;
-    left: 7%;
-    -webkit-animation: rotateInDownLeft .7s linear 1s 1 both;
-    animation: rotateInDownLeft .7s linear 1s 1 both;
-}
-
-#page5 .line4 {
-    position: absolute;
-    top: 53.7%;
-    left: 9.4%;
-    -webkit-animation: rotateInDownLeft .7s linear 4s 1 both;
-    animation: rotateInDownLeft .7s linear 4s 1 both;
-}
-
-#page5 .line5 {
-    position: absolute;
-    top: 62.6%;
-    left: 57.3%;
-    -webkit-animation: rotateInDownRight .7s linear 3s 1 both;
-    animation: rotateInDownRight .7s linear 3s 1 both;
-}
 
 
 
@@ -456,23 +387,23 @@ opacity: 1;
 }
 #page4  img:nth-child(2){
     opacity: 1;
-    animation:bounceInUp 1s 0.5s both;
-    -webkit-animation:bounceInUp 1s 0.5s both;
+    animation:fadeInDown 1s 0.5s both;
+    -webkit-animation:fadeInDown 1s 0.5s both;
 }
 #page4  img:nth-child(3){
     opacity: 1;
-    animation:bounceInUp 1s 0.7s both;
-    -webkit-animation:bounceInUp 1s 0.7s both;
+    animation:fadeInDown 1s 0.7s both;
+    -webkit-animation:fadeInDown 1s 0.7s both;
 }
 #page4  img:nth-child(4){
     opacity: 1;
-    animation:bounceInUp 1s 0.9s both;
-    -webkit-animation:bounceInUp 1s 0.9s both;
+    animation:fadeInDown 1s 0.9s both;
+    -webkit-animation:fadeInDown 1s 0.9s both;
 }
 #page4  img:nth-child(5){
     opacity: 1;
-    animation:bounceInUp 1s 1.1s both;
-    -webkit-animation:bounceInUp 1s 1.1s both;
+    animation:fadeInDown 1s 1.1s both;
+    -webkit-animation:fadeInDown 1s 1.1s both;
 }
 #page4  span:nth-child(6){
     animation:rotateInUpLeft 1s 0.7s both;
@@ -500,34 +431,25 @@ opacity: 1;
 }
 #page5  div:nth-child(1){
     opacity: 1;
-    animation: zoomInRight 2s 0.3s both;
-    -webkit-animation:zoomInRight 2s 0.3s both;
+    animation: zoomInRight 1s 0.3s both;
+    -webkit-animation:zoomInRight 1s 0.3s both;
 }
-#page5 div:nth-child(2){
-    opacity: 1;
-    -webkit-animation: zoomInDown 1s linear 0s 1 both;
-    animation: zoomInDown 1s linear 0s 1 both;
+#page5 img:nth-child(2){
+    opacity: .59;
+    -webkit-animation: zoomInRight 3s linear 0s 1 both;
+    animation: zoomInRight 3s linear 0s 1 both;
 }
 #page5 div:nth-child(3){
     opacity: 1;
     -webkit-animation: zoomInDown 1s linear 2s 1 both;
     animation: zoomInDown 1s linear 2s 1 both;
 }
-#page5 div:nth-child(4){
-    opacity: 1;
-    -webkit-animation: zoomInDown 1s linear 1s 1 both;
-    animation: zoomInDown 1s linear 1s 1 both;
+#page5  img:nth-child(4){
+    opacity: 0.3;
+    animation: zoomInRight 2s 0.3s both;
+    -webkit-animation:zoomInRight 2s 0.3s both;
 }
-#page5 div:nth-child(5){
-    opacity: 1;
-    -webkit-animation: zoomInDown 1s linear 3s 1 both;
-    animation: zoomInDown 1s linear 3s 1 both;
-}
-#page5 div:nth-child(6){
-    opacity: 1;
-    -webkit-animation: zoomInDown 1s linear 4s 1 both;
-    animation: zoomInDown 1s linear 4s 1 both;
-}
+
 .music{
     display: block;
     position: absolute;
