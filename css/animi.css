@@ -2656,6 +2656,7 @@
 
   to {
     opacity: 0.4;
+    filter: alpha(opacity:40);
     -webkit-transform: none;
     transform: none;
   }
