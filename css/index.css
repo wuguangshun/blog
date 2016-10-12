@@ -125,19 +125,19 @@ html {
 .slide2 img:nth-child(2){
     width: 2.16rem;
     height: 1.78rem;
-    bottom: 1rem;
-    right: 1rem;
+    bottom: 11%;
+
 
 }
 .slide2 img:nth-child(3){
     width: 5.87rem;
     height: 4.37rem;
-   opacity: 0;
-    left: .26rem;
-    top:2.6rem;
+    opacity: 0;
+    left: 4.5%;
+    top: 16.6%;
 }
 .slide2 div{
-    top: 2.6rem;
+    top: 16.6%;
     z-index: 10;
     font-size: .28rem;
     line-height: 0.4rem;
@@ -147,12 +147,12 @@ html {
     filter: alpha(opacity:0);
 }
 .slide2 div:nth-child(4){
-    color: #333;
-    left: -1rem;
-    font-size:medium;
+    color: #00ff21;
+    left: -15%;
+
 }
 .slide2 div:nth-child(5){
-    color: #333;
+    color: #00ff21;
     left: 2rem;
 }
 .slide3 img:nth-child(1){
@@ -172,28 +172,27 @@ html {
     border-radius: .10rem;
     width: 4rem;
     height: 1rem;
-
 }
 .slide3 p:nth-child(3){
-    padding: 0.3rem;
-    top: 0.8%;
+    padding: 0.1rem;
+    top: 1.8%;
     left: 6.2%;
     background: #dfa54a;
 }
 .slide3 p:nth-child(4){
-    padding: 0.3rem;
+    padding: 0.1rem;
     top: 19.8%;
     right: 5.4%;
     background: #72b78c;
 }
 .slide3 p:nth-child(5){
-    padding: 0.3rem;
+    padding: 0.1rem;
     bottom: 10%;
     left: 6.2%;
     background: #4a7db7;
 }
 .slide3 p:nth-child(6){
-    padding: 0.3rem;
+    padding: 0.1rem;
     bottom: 31%;
     right: 5.4%;
     background: #29aedf;
@@ -211,26 +210,26 @@ html {
 
 }
 .slide4 img:nth-child(3){
-    top: 2.5rem;
-    left: 0.65rem;
-    width: 5.08rem;
-    height: 2.06rem;
+    top: 22.5%;
+    left: 10.65%;
+    width: 80.08%;
+    height: 16.06%;
 
 
 }
 .slide4 img:nth-child(4){
-    width: 5.08rem;
-    height: 2.06rem;
-    top: 5.5rem;
-    left: 0.65rem;
+    width: 80.08%;
+    height: 16.06%;
+    top: 49.5%;
+    left: 10.65%;
 
 
 }
 .slide4 img:nth-child(5){
-    width: 5.08rem;
-    height: 2.06rem;
-    top: 8.5rem;
-    left: 0.65rem;
+    width: 80.08%;
+    height: 16.06%;
+    bottom: 10.5%;
+    left: 10.65%;
 
 
 }
@@ -239,16 +238,16 @@ html {
     color: #ffffff;
 }
 .slide4 span:nth-child(6){
-    top: 3rem;
-    left: 1rem;
+    top: 25%;
+    left: 16%;
 }
 .slide4 span:nth-child(7){
-    top: 6rem;
-    right: 1rem;
+    bottom: 38%;
+    right: 15%;
 }
 .slide4 span:nth-child(8){
-    bottom: 1.3rem;
-    left: 1rem;
+    bottom: 13.5%;
+    left: 15.3%;
 }
 .slide4 h5{
     width: 3.4rem;
@@ -257,16 +256,16 @@ html {
     color: #666;
 }
 .slide4 h5:nth-child(9){
-    top: 3rem;
-    left: 2.1rem;
+    top: 26%;
+    left: 33.1%;
 }
 .slide4 h5:nth-child(10){
-    top: 6rem;
-    right: 2rem;
+    top: 52%;
+    left: 15%;
 }
 .slide4 h5:nth-child(11){
-    bottom: 1.5rem;
-    left: 2.3rem;
+    bottom: 14.5%;
+    left: 36.3%;
 }
 .slide5 div:nth-child(1){
     background: url("../img/pingj.png");

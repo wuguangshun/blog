@@ -2655,7 +2655,7 @@
   }
 
   to {
-    opacity: 1;
+    opacity: 0.4;
     -webkit-transform: none;
     transform: none;
   }
