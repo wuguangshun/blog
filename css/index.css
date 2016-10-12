@@ -334,7 +334,7 @@ html {
 }
 #page2 img:nth-child(3){
 
-
+    opacity: 0.59;
     animation:rollIn 1s 0.7s both;
     -webkit-animation:rollIn 1s 0.7s both;
 
