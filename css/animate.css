@@ -2573,7 +2573,7 @@ Copyright (c) 2015 Daniel Eden
     }
 
     to {
-        opacity: 1;
+        opacity: 0.59;
         -webkit-transform: none;
         transform: none;
     }
@@ -2587,7 +2587,7 @@ Copyright (c) 2015 Daniel Eden
     }
 
     to {
-        opacity: 1;
+        opacity: 0.59;
         -webkit-transform: none;
         transform: none;
     }
