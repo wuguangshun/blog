@@ -335,7 +335,8 @@ html {
 }
 #page2 img:nth-child(3){
 
-    opacity: 0.59;
+    opacity: 0.6;
+    filter: alpha(opacity:60);
     animation:rollIn 1s 0.7s both;
     -webkit-animation:rollIn 1s 0.7s both;
 
@@ -384,6 +385,8 @@ opacity: 1;
 
 #page4  img:nth-child(1){
     animation: zoomInRight 2s 0.3s both;
+     opacity: 0.6;
+    filter: alpha(opacity:60);
     -webkit-animation:zoomInRight 2s 0.3s both;
 }
 #page4  img:nth-child(2){
