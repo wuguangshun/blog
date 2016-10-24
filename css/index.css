@@ -198,10 +198,7 @@ html {
 }
 
 
-.slide4 img:nth-child(1){
-    opacity: .5;
-    filter: alpha(opacity:50);
-}
+
 .slide4 img:nth-child(2){
     left: 2rem;
     width: 2.16rem;
