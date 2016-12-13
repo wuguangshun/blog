@@ -147,12 +147,12 @@ html {
     filter: alpha(opacity:0);
 }
 .slide2 div:nth-child(4){
-    color: #00ff21;
+    color: #1d00ff;
     left: -2%;
 
 }
 .slide2 div:nth-child(5){
-    color: #00ff21;
+    color: #9bff00;
     left:  28%;;
 }
 .slide3 img:nth-child(1){
